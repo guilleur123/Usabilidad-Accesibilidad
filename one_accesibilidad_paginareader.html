@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="js/bootstrap.min.css">
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    </head>
+    <body>
+ <div class="container">
+  <div class="row">
+    <div class="col-12">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">PRUEBA ARIA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" name="inicio" href="inicio.action">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" name="quienes" href="quienes.action">Quienes Somos</a>
+      </li>
+       <li class="nav-item ">
+        <a class="nav-link" name="servicios" href="#">Servicios</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="#">Contacto</a>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<br>
+
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class=" row justify-content-center">
+    <div class="col-12" align="center">
+    <h1><span class="badge badge-secondary">WEB DE SOLICITUD DE VIVIENDA</span></h1>
+
+      <iframe width="600" height="315"src="https://www.youtube.com/watch?v=pxjFIwzMul0"></iframe>
+      
+      <h2><span class="badge badge-secondary">CONTACTO</span></h2>
+        <form class="form-group">      
+<div class="col-6">
+     
+        <br>
+          
+        <div class="form-control ">  
+      
+        <div class="form-group">
+        <label class="sr-only" for="nombre">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+        </div>
+        <div class="form-group">
+        <label class="sr-only" for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="user" placeholder="Email">
+        </div>
+        <div class="form-group">
+        <label class="sr-only" for="movil">Movil</label>
+        <input type="tel" class="form-control" id="movil" name="movil" placeholder="Numero de Movil">
+        </div>
+        <div class="form-group">
+        <label class="sr-only" for="comentarios">Comentarios</label>
+        <textarea type="" class="form-control" id="comentarios" name="comentarios" placeholder="Escriba un comentario"></textarea>
+        </div>
+
+       
+           <br/>
+
+        </div>
+      
+</div>
+      
+
+
+<div class="col-6">
+
+        <div class="col-5 form-control">
+        
+            <fieldset >
+              <div align="left"> 
+                <legend>Tipos de Vivienda:</legend>
+                <input type="checkbox" id="checkone" name="checkone" checked>
+                <label for="checkone"> Casa</label><br>
+            
+                <input type="checkbox" id="checktwo" name="checkboxtwo">
+                <label for="checktwo">Apartamento</label><br>
+            
+                <input type="checkbox" id="checkthree" name="checkthree">
+                <label for="checkthree">Farm</label><br>
+            
+                <input type="checkbox" id="checkfour" name="checkfour">
+                <label for="checkfour">Penthouse</label><br>
+            </div>
+            </fieldset>
+        </div>
+            <br>
+
+        <div class="col-5 form-control">
+            <fieldset >
+              <div align="left"> 
+                <legend>Rango de Precios:</legend>
+                <input type="radio" id="radone" name="radone">
+                <label for="radone"> 100/500</label><br>
+
+                <input type="radio" id="radtwo" name="radtwo">
+                <label for="radtwo">600/1000</label><br>
+                
+                <input type="radio" id="radthree" name="radthree" checked>
+                <label for="radthree">2000/10000</label><br>
+
+                <input type="radio" id="radfour" name="radfour">
+                <label for="radfour"> 50000/100000</label><br>
+              </div>  
+            </fieldset>
+              
+        </div>
+        <br>  
+
+        <button aria-label="send" type="submit" class="btn btn-outline-info col-12 " id="enviaremail" name="enviaremail"> Enviar Email </button>
+    </div>
+      
+      <br>  
+
+
+       </form>
+
+ 
+    </div>
+  </div>
+</div>
+
+
+
+    </body>
+</html>
